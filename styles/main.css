@@ -308,8 +308,11 @@ body {
 .big_box_mid {
     background-image: url(../images/layout/details_box_center.gif);
     padding: 5px;
+    text-decoration: none;
 }
-
+.big_box_mid > ul {
+    list-style: circle;
+}
 .big_box_img {
     width: 200px;
     float: left;
@@ -403,4 +406,10 @@ button:hover {
 /* Font Awesome Icon */
 button i {
     margin-right: 5px;
+}
+
+/* Bài làm */
+.price {
+    color: red;
+    font-weight: 700;
 }
